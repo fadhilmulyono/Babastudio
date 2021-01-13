@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { 
+    margin:0px; 
+    padding:0px;
+}
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.top-line {
+	height: 12px;
+    background-image:url(../images/element.png);
+    overflow:auto;
+}
+
+.container {
+    width:940px;
+    margin:auto; 
+    overflow:auto; 
+    overflow-x:hidden; 
+    overflow-y:hidden;
+}
+
+#wrapper #header {
+    height: 100px;
+    width: 100%;
+}
+
+#wrapper #header img { 
+    margin:4px 0 0 28px; 
+    float:left;
+}
+
+#wrapper #header #menu { 
+    height:auto; 
+    float:right; 
+    margin:20px 10px 0 0;
+}
+
+#wrapper #header #menu li { 
+    float:left; 
+    list-style:none; 
+    width:110px;
+}
+
+#wrapper #header #menu li a:hover { 
+    color:red;
+}
+
+#wrapper #header #menu li a { 
+    display:block; 
+    font-size:20px; 
+    line-height:1.2cm; 
+    color:#9E2630; 
+    text-decoration:none; 
+    text-align:center; 
+    font-weight:bold;
+}
+
+#wrapper #slider {
+    height: 450px;
+    width: 100%; 
+    border-radius: 5px;
+}
+
+#wrapper #content {
+    min-height: 600px;
+    width: 100%;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+#wrapper #content #about h1 {
+    background-image:url(../images/element.png);
+    font-size:26px;
+    padding:10px 0px 10px 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color:white;
+    margin-bottom:20px;
+}
+
+#wrapper #content .section {
+    height:200px;
+    margin:20px;
+}
+
+#wrapper #content .section img {
+    float:left;
+    margin:10px 50px 10px 10px;
+}
+
+#wrapper #content .section h1 {
+    padding:10px 0 10px 0;
+    font-size:24px;
+}
+
+#wrapper #content .section p {
+    padding:10px 0 30px 0;
+    font-size:16px;
+    line-height:25px;
+    font-weight:lighter;
+    text-align:justify;
+}
+
+#wrapper #content .section .readmore a{
+    margin:auto;
+    padding:5px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    font-size:16px;
+    color:gray;
+    text-decoration: none; 
+    text-align: center; 
+    font-weight: bold;
+}
+
+#wrapper #content #services {
+    width:425px;
+    height:150px;
+    margin:20px;
+    align-content: center;
+    float:left;
+}
+
+#wrapper #content #services img {
+    float:left;
+    margin-right:15px;
+}
+
+#wrapper #content #services h1 {
+    font-size:16px;
+}
+
+#wrapper #content #services p {
+    padding:10px;
+    font-size:12px;
+    line-height:20px;
+    font-weight:lighter;
+    text-align:justify;
+}
+
+#wrapper #content #gallery {
+    width:880px;
+    margin:30px 30px 0 30px;
+    border:2px solid #ccc;
+    border-radius:5px;
+    height:1000px;
+}
+
+#wrapper #content #gallery li {
+    list-style:none; 
+    width:260px;
+    margin:15px;
+    float:left;
+}
+
+#wrapper #content #gallery li img {
+    padding:15px;
+}
+
+#wrapper #content #gallery li p {
+    font-size:24px;
+    font-weight:bold;
+    text-align:center;
+}
+
+#wrapper #content #contact { 
+    width:400px;
+    margin:20px;
+}
+
+#wrapper #content #contact input[type=text]{ 
+    margin:10px; 
+    width:400px; 
+    height:20px; 
+    border:1px solid grey; 
+    background:white; 
+    padding:3px 5px; 
+    color:#696968; 
+    font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#wrapper #content #contact textarea { 
+    width:400px; 
+    height:160px; 
+    border:1px solid grey; 
+    margin:10px;
+    padding:3px 5px; 
+    color: #696968; 
+    font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+
+#wrapper #content #contact input[type=button]{
+    background:silver; 
+    border:1px solid black; 
+    color:black; 
+    font-weight:bold; 
+    font:14px "Trebuchet MS", Arial, Helvetica, sans-serif; 
+    width:60px; 
+    height:30px;
+    float:right;
+}
+
+#wrapper #footer {
+    height:30px;
+    width:100%;
+    overflow:hidden;
+    background-image:url(../images/element.png);
+    margin-top:20px;
+}
+
+#wrapper #footer p {
+    line-height:30px;
+    font-size:18px;
+    text-align:center;
+    color:white;
+}
+
