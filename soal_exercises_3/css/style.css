@@ -1,0 +1,38 @@
+* { margin:0px; padding:0px;}
+body { background-image:url(../images/bg.jpg); font-size:14px; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif}
+.container { width:940px; height:100%; margin:auto; overflow:auto; overflow-y:hidden;}
+#wrapper { width:680px; height:1000px; margin:auto; background-image:url(../images/bgcontainer.jpg)}
+
+/**************************** END STYLE FOR GENERAL **********************************************/
+
+#menu { background-image:url(../images/bgcontent.gif); background-repeat:no-repeat; background-position:center; margin-left:15px; height:95px; width:500px; padding-left:149px;}
+#menu li { float:left; list-style:none; margin-right:20px;}
+#menu li a:hover{color:green important;}
+#menu li a { display:block; font-size:18px; line-height:1.5cm; color:#555; text-align:center; height:80px; font-family:"Times New Roman", Times, serif}
+
+/**************************** END STYLE FOR HEADER ********************************************/
+
+#top-image { text-align:center;}
+#top-image img { width:600px;} 
+
+.first-letter { display:block; float:left; font-size: 2.4em; margin-left:40px; margin-top:-10px;}
+ 
+#title { margin-left:40px; margin-top:20px; font-size:18px; font-family:"Times New Roman", Times, serif}
+#date { margin-left:40px; font-size:12px; margin-bottom:10px; }
+#map { margin-left:40px; margin-right:10px;}
+#p1 { margin-left:40px; margin-right:40px; margin-bottom:20px; color:#444; }
+#p2 { margin-left:40px; margin-right:40px; margin-bottom:20px; color:#444; }
+#p3 { margin-left:40px; margin-right:40px; margin-bottom:20px; color:#444; }
+#p4 { margin-left:40px; margin-right:35px; margin-bottom:20px; color:#444; }
+#p5 { margin-left:40px; margin-right:35px; margin-bottom:20px; color:#444; }
+#p6 { margin-left:40px; margin-right:35px; margin-bottom:20px; color:#444; }
+
+#divider { height:20px; margin:20px auto; width:560px; text-align:center;}
+blockquote { margin-left:40px; margin-right:20px; margin-bottom:20px; background:url(../images/quote.gif) no-repeat; color:#555; font-size:14px; padding-left:22px;}
+
+/**************************** END STYLE FOR CONTENT ********************************************/
+
+#footer { background-image:url(../images/bgfooter.gif); background-repeat:no-repeat; background-position:center; height:40px;}
+#footer p { margin:20px; text-align:center;}
+
+/**************************** END STYLE FOR FOOTER ********************************************/

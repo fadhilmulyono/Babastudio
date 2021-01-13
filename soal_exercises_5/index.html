@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Form Registration</title>
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Archivo+Narrow:400,700" rel="stylesheet" type="text/css">
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+<body>
+<div id="logo" class="container">
+	<h1><a href="#">FORM EXERCISE</a></h1>
+</div>
+
+<div id="page" class="container">
+	<div id="box1">
+		<h2 class="title"><a href="#">Member Registration Form</a></h2>
+		<div style="clear: both;">&nbsp;</div>
+		<div class="entry">
+			<p><strong>Fill out the registration form on the side with the correct data. All the fields that exist in this form must be filled</strong></p>
+			
+		</div>
+	</div>
+    
+	<div id="box2">
+   <!-- BUILD FORM PENDAFTARAN START FROM HERE, INCLUDE FULLNAME,USERNAME,PASSWORD,GENDER,BIRTDATE,HOBY,ADDRESS AND SUBMIT BUTTON -->
+	<form id="form_registration">
+		<table>
+			<tbody>
+				<tr>
+					<td class="formfieldname"><strong>Fullname *</strong></td>
+					<td class="formseparator">:</td>
+					<td class="formtextfield">
+						<input name="fullname" type="text" placeholder="Please insert Fullname">
+					</td>
+				</tr>
+				<tr>
+					<td class="formfieldname"><strong>Username *</strong></td>
+					<td class="formseparator">:</td>
+					<td class="formtextfield">
+						<input name="username" type="text" placeholder="Please insert Username">
+					</td>
+				</tr>
+				<tr>
+					<td class="formfieldname"><strong>Password *</strong></td>
+					<td class="formseparator">:</td>
+					<td class="formtextfield">
+						<input name="password" type="password" placeholder="Password">
+					</td>
+				</tr>
+				<tr>
+					<td class="formfieldname"><strong>Email *</strong></td>
+					<td class="formseparator">:</td>
+					<td class="formtextfield">
+						<input name="email" type="text" placeholder="Please insert Email Address">
+					</td>
+				</tr>
+				<tr>
+					<td class="formfieldname"><strong>Gender</strong></td>
+					<td class="formseparator">:</td>
+					<td>
+						<input name="gender" type="radio">Male
+						<input name="gender" type="radio">Female
+					</td>
+				</tr>
+				<tr>
+					<td class="formfieldname"><strong>Birth Date</strong></td>
+					<td class="formseparator">:</td>
+					<td>
+						<select><option>--Day--</option></select>
+						<select><option>--Month--</option></select>
+						<select><option>--Year--</option></select>
+					</td>
+				</tr>
+				<tr>
+					<td class="formfieldname"><strong>Hobby</strong></td>
+					<td class="formseparator">:</td>
+					<td>
+						<input name="hobby" type="checkbox">Sports
+						<input name="hobby" type="checkbox">Travel
+						<input name="hobby" type="checkbox">Culture
+						<br>
+						<input name="hobby" type="checkbox">Culinary
+						<input name="hobby" type="checkbox">Shopping
+						<input name="hobby" type="checkbox">Praying
+					</td>
+				</tr>
+				<tr>
+					<td class="formfieldname"><strong>Address</strong></td>
+					<td class="formseparator">:</td>
+					<td>
+						<textarea name="address" placeholder="Address"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td>
+						<input type="button" value="Submit">
+						<input type="button" value="Reset">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</form>
+	</div>
+    
+    
+    
+</div>
+<div id="footer" class="container">
+	<p>Copyright (c) 2019 Fadhil Mulyono </p>
+</div>
+</body>
+</html>
